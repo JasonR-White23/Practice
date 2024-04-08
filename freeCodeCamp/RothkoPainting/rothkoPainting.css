@@ -3,6 +3,7 @@
     width: 500px;
     height: 600px;
     background-color: #4d0f00;
+    overflow: hidden;
     filter: blur(2px);
 }
 
@@ -18,7 +19,6 @@
     height: 150px;
     background-color: #efb762;
     margin: 20px auto;
-    overflow: hidden;
     box-shadow: 0 0 3px 3px #efb762;
     border-radius: 9px;
     transform: rotate(-0.6deg);
