@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="surveyForm.css" >
+        <title>
+            Survey Form
+        </title>
+    </head>
+    <body>
+        <h1 id="title">
+            Survey Form
+        </h1>
+        <p id="description">
+            This a form to inquire about interests and hobbies.
+        </p>
+        <form id="survey-form">
+            <div class="container">
+                <label id="name-label" for="name">
+                    Name:
+                </label>
+                <input 
+                    id="name" 
+                    type="text" 
+                    name="name" 
+                    placeholder="Enter your name" 
+                    required 
+                />
+            </div>
+            <div class="container">
+                <label id="email-label" for="email">
+                    Email:
+                </label>
+                <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your Email"
+                    required
+                />
+            </div>
+            <div class="container">
+                <label id="number-label">
+                    Age (optional):
+                </label>
+                <input
+                    id="number"
+                    type="number"
+                    name="age"
+                    placeholder="Age"
+                    min="15"
+                    max="130"
+                />
+            </div>
+            <div class="container">
+                <p id="question">
+                    What kind of learner are you?
+                </p>
+                <select id="dropdown" name="learning">
+                    <option value="visual">
+                        Visual Learner
+                    </option>
+                    <option value="auditory">
+                        Auditory Learner
+                    </option>
+                    <option value="read-write">
+                        Verbal Learner (Read/Write)
+                    </option>
+                    <option value="physical">
+                        Kinesthetic Learner (Physical)
+                    </option>
+                    <option value="social">
+                        Social Learner
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                </select>
+            </div>
+            <div >
+               <p id="question">
+                  Which do you prefer?
+               </p>
+               <div class="radio-container">
+                    <label>
+                        <input name="preference" value="movies" type="radio" />
+                        Movies
+                    </label>
+                    <label>
+                        <input name="preference" value="tv-shows" type="radio" />
+                        TV Shows
+                    </label>
+                    <label>
+                        <input name="preference" value="neither" type="radio" />
+                        Neither
+                    </label>
+               </div>
+            </div>
+            <div>
+                <p id="hobbies">
+                    Check off the following hobbies that apply to you:
+                </p>
+                <div class="checkbox-container">
+                    <label>
+                        <input name="hobbies" value="reading" type="checkbox" />
+                        Reading
+                    </label>
+                    <label>
+                        <input name="hobbies" value="videogames" type="checkbox" />
+                        Video Games
+                    </label>
+                    <labal>
+                        <input name="hobbies" value="cooking" type="checkbox" />
+                        Cooking
+                    </labal>
+                    <label>
+                        <input name="hobbies" value="exercise" type="checkbox" />
+                        Exercising
+                    </label>
+                    <label>
+                        <input name="hobbies" value="creative" type="checkbox" />
+                        Drawing/Painting
+                    </label>
+                    <label>
+                        <input name="hobbies" value="gardening" type="checkbox" />
+                        Gardening
+                    </label>
+                    <label>
+                        <input name="hobbies" value="programming" type="checkbox" />
+                        Programming
+                    </label>
+                    <label>
+                        <input name="hobbies" value="photography" type="checkbox" />
+                        Photography
+                    </label>
+                </div>
+            </div>
+            <div>
+                <p id="hobbies">
+                    Add any additional hobbies or interests you may have:
+                </p>
+                <textarea id="additional-hobbies" name="additional-hobbies" placeholder="Add additional hobbies here...">Add additional hobbies or interests here...</textarea>
+            </div>
+            <div>
+                <button type="submit" id="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </body>
+</html>

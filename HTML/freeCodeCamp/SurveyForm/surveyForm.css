@@ -1,0 +1,143 @@
+
+body {
+    background-color: #5f5f5f;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium';
+    display: block;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#description {
+   
+    font-style: italic;
+}
+
+#survey-form {
+    display: block;
+
+}
+
+#name-label {
+    color: #000;
+    font-size: larger;
+}
+#name {
+    display: block;
+    border: 2px solid #000;
+    font-style: oblique;
+    align-self: center;
+}
+
+#email-label {
+    color: #000;
+    font-size: larger;
+}
+
+#email {
+    display: block;
+    border: 2px solid #000;
+    font-style: oblique;
+    padding: 2px;
+}
+
+#number-label {
+    color: #000;
+    font-size: larger;
+}
+
+#number {
+    display: block;
+    border: 2px solid #000;
+    font-style: oblique;
+    padding: 2px;
+}
+
+#question {
+    color: #000;
+    font-size: larger;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dropdown {
+    color: #000;
+    font-size: medium;
+    display: block;
+}
+
+#hobbies {
+    color: #000;
+    font-size: larger;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#additional-hobbies {
+    width: 40%;
+    height: 100px;
+    text-align: left;
+    margin-top: 5px;
+    
+}
+
+#submit {
+    width: 40%;
+    color: #fff;
+    background-color: #020299;
+    border: none;
+}
+
+.container {
+    display: block;
+    padding: 5px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.container input {
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.radio-container {
+    display: block;
+    text-align: left;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+}
+
+.radio-container label {
+    display: block;
+}
+
+.checkbox-container {
+    display: block;
+    text-align: left;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+}
+
+.checkbox-container label {
+    display: block;
+}
+
