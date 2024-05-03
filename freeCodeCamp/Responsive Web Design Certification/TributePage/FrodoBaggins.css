@@ -1,7 +1,9 @@
+body {
+    background-color: darkgrey;
+}
 
 #main {
     text-align: center;
-    background-color: darkgrey;
 }
 
 #title {
