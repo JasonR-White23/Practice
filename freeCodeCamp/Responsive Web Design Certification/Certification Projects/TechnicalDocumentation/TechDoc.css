@@ -1,0 +1,147 @@
+/* Element Selectors */
+
+html {
+    background-color: darkslategrey;
+}
+
+code {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p {
+    display: block;
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/* Id Selectors */
+
+#main-doc {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#navbar {
+    display: block;
+    width: 19%;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2px 5px;
+    background-color: rgb(150, 156, 161);
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        width: 25%;
+    }
+
+    #main-doc {
+        margin-left: 35%;
+        width: 100%;
+
+    }
+}
+
+
+/* Class Selectors */
+
+.main-section {
+    color: black;
+    background-color: rgb(150, 156, 161);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 8px;
+    margin: 12px;
+}
+
+.introduction {
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    width: 15%;
+    padding: 4px;
+}
+
+.step1 {
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    width: 60%;
+    padding: 4px;
+}
+
+.example1 {
+    font-size: larger;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    width: 60%;
+    padding: 4px;
+}
+
+.step2 {
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    width: 40%;
+    padding: 4px;
+}
+
+.information {
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    width: 15%;
+    padding: 4px;
+}
+
+.indent1 {
+    margin-left: 25px;
+}
+
+.indent2 {
+    margin-left: 50px;
+}
+
+.indent3 {
+    margin-left: 75px;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav-header {
+    font-size: medium;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;   
+}
+
+.nav-link {
+    display: block;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 2px;
+    margin: 6px 3px ;
+    text-align: center;
+}

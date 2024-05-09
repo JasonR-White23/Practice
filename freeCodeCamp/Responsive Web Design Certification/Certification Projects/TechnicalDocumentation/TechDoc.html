@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./TechDoc.css" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initialscale=1.0">
+        <title>
+            How to Make an HTML Document
+        </title>
+    </head>
+    <body>
+        <div class="nav">
+            <nav id="navbar">
+                <header class="nav-header">
+                    Build an HTML Webpage
+                </header>
+                <a href="#introduction" class="nav-link">
+                    Introduction
+                </a>
+                <a href="#step_1" class="nav-link">
+                    Step 1
+                </a>
+                <a href="#example" class="nav-link">
+                    Example
+                </a>
+                <a href="#step_2" class="nav-link">
+                    Step 2
+                </a>
+                <a href="#information" class="nav-link">
+                    Information
+                </a>
+            </nav>
+        </div>
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <header class="introduction">
+                    Introduction
+                </header>
+                <p>
+                    This webpage is a short, 2 step instructional guide to making a HTML webpage. It shows the bare minimum 
+                    needed to structure a HTML webpage much like this one itself. 
+                </p>
+            </section>
+            <section class="main-section" id="step_1">
+                <header class="step1">
+                    Step 1 
+                </header>
+                <div class="header">
+                    <h3>
+                        Creating the Template for your HTML Document
+                    </h3>
+                </div>
+                <p>
+                    The best place to start when creating a HTML document is with a
+                    template with the "bare bones" of the HTML document itself.
+                </p>
+                <p>
+                    In the following order add these elements to your page, remember that most
+                    elements have an opening (<code>&lt;<i>element</i>&gt;</code>) and closing (<code>&lt;/<i>element</i>&gt;</code>) tag that surrounds the content within 
+                    your elemenets:
+                </p>
+                <ol>
+                    <li>
+                        <code>
+                           &lt;!DOCTYPE html&gt;
+                        </code>
+                        <p>
+                            This line of code tells the computer what type of file it is reading 
+                            when the file is opened. It is also a self closing tag, so it does not require 
+                            a closing tag
+                        </p>
+                    </li>
+                    <li>
+                        <code>
+                            &lt;html lang=""&gt;
+                            <br />
+                            <br />
+                            &lt;/html&gt;
+                        </code>
+                        <p>
+                            This the <code>&lt;html&gt;</code> element, this element contains all the HTML elements you
+                            would like to include on your HTML page. The <code class="attribute">lang=""</code> attribute is used
+                            to determine the language of your HTML page. (english = en)
+                        </p>
+                    </li>
+                    <li>
+                        <code>
+                            &lt;head&gt;
+                            <br />
+                            <span class="indent1">
+                                &lt;title&gt;
+                                <br />
+                                    <span class="indent2">
+                                        <i>(Page title here)</i>
+                                    </span>
+                                <br />
+                                <span class="indent1">
+                                    &lt;/title&gt;
+                                </span>
+                            </span>
+                            <br />
+                            <span class="2">
+                                &lt;/head&gt;
+                            </span>
+                        </code>
+                        <p>
+                            The <code>&lt;head&gt;</code> contains the information about your HTML page, such as the title of your page, a 
+                            description of your page, and so on. Information is determined within the <code>&lt;meta /&gt;</code> tag (a self closing element). 
+                        </p>
+                    </li>
+                    <li>
+                        <code>
+                            &lt;body&gt;
+                            <br />
+                            <span class="indent1">
+                                <i>(Page content here...)</i>
+                            </span>
+                            <br />
+                            &lt;/body&gt;
+                        </code>
+                        <p>
+                            The <code>&lt;body&gt;</code> element contains the content you want to display to the users of 
+                            your page. This tag should be within the <code>&lt;html&gt;</code> element but not within the <code>&lt;head&gt;</code> 
+                            element. 
+                        </p>
+                    </li>
+                </ol>
+            </section>
+            <section class="main-section" id="example">
+                <header class="example1">
+                    Example
+                </header>
+                <div class="header">
+                    <h3>
+                        "Bare Bones" of an HTML Document
+                    </h3>
+                </div>
+                <div>
+                    <code>
+                        &lt;!DOCTYPE html&gt;
+                        <br />
+                        <span>
+                            &lt;html lang="en"&gt;
+                            <br />
+                            <span class="indent1">
+                                &lt;head&gt;
+                                <br />
+                                <span class="indent2">
+                                    &lt;meta charset="utf-8" /&gt;
+                                </span>
+                                <br />
+                                <span class="indent2">
+                                    &lt;meta name="viewport" content="width=device-width, initialscale=1.0" /&gt;
+                                </span>
+                                <br />
+                                <span class="indent2">
+                                    &lt;meta name="description" content="A webpage instructing how to create a HTML webpage" /&gt;
+                                </span>
+                                <br />
+                                <span class="indent2">
+                                    &lt;title&gt;
+                                    <br />
+                                    <span class="indent3">
+                                        Bare Bones Example
+                                    </span>
+                                    <br />
+                                    <span class="indent2">
+                                    &lt;/title&gt;
+                                    </span>
+                                </span>
+                                <br />
+                                <span class="indent1">
+                                    &lt;/head&gt;
+                                </span>
+                            </span>
+                            <br />
+                            <span class="indent1">
+                                &lt;body&gt;
+                                <br />
+                                    <span class="indent2">
+                                        &lt;h1&gt;
+                                        <br />
+                                        <span class="indent3">
+                                            Bare Bones Example
+                                        </span>
+                                        <br />
+                                        <span class="indent2">
+                                            &lt;/h1&gt; 
+                                        </span>
+                                    </span>
+                                    <br />
+                                    <span class="indent2">
+                                        &lt;p&gt;
+                                    </span>
+                                        <br />
+                                        <span class="indent3">
+                                            This is where you add the conent you want displayed on your page.
+                                        </span>
+                                        <br />
+                                    <span class="indent2">
+                                        &lt;/p&gt;
+                                    </span>    
+                                <br />
+                                <span class="indent1">
+                                    &lt;/body&gt;
+                                </span>
+                            </span>
+                            <br />
+                            &lt;/html&gt;
+                        </span>
+                        <br />
+                    </code>
+                </div>
+            </section>
+            <section class="main-section" id="step_2">
+                <header class="step2">
+                    Step 2 
+                </header>
+                <div class="header">
+                    <h3>
+                        Add your Wepages Content
+                    </h3>
+                </div>
+
+                <p>
+                    The only thing left to do now, is to fill your page with content! I included two elements within the 
+                    example above. The first element is a header element, there are six heading elemets beginning at the largest 
+                    font size (<code>&lt;h1&gt;</code>) through to the smallest text (<code>&lt;h6&gt;</code>). The second element withing in the example 
+                    is the paragraph element (<code></code>&lt;p&gt;</code>), this is used for writing paragraphs which is displayed as a block of
+                    text.
+                </p>
+            </section>
+            <section class="main-section" id="information">
+                <header class="information">
+                    Information
+                </header>
+                <p>
+                    If you would like further your knowledge of HTML and start expanding to different programming languages
+                    follow the links below to a few <b>free</b> online courses:
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://www.freecodecamp.org/learn/" target="_blank">freeCodeCamp</a>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
+                    </li>
+                    <li>
+                        <a href="https://www.sololearn.com/en/" target="_blank">sololearn</a>
+                    </li>
+                </ul>
+                <p>
+                    Thanks for reading!
+                </p>
+            </section>
+        </main>
+    </body>
+</html>
